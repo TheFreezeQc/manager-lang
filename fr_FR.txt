@@ -1,0 +1,84 @@
+Transleted by TheFreezeQc
+
+{
+
+    "lang_version":     2,
+    "lang_revision":    "dev0",
+    "lang_name":        "French",
+    "lang_short":       "fr_FR",
+
+    "shared": {
+
+        "errorGeneric":         "Quelque chose s'est mal passé.",
+        "errorNoPermission":    "Vous n'avez pas les premissions requise.",
+        "errorConfigNotFound":  "Une erreur s'est produite lors de l'extraction de la configuration de ce serveur.",
+
+		"configFlushed":		"Cache pour le server $1 rincé.",
+		"errorShutdownGrace":	"Désoler, Vous ne pouvez pas faire cette commande maintenant. réssayer dans une minute ou deux."
+
+    },
+
+    "channel": {
+
+        "dataFetching":         ":black_circle: Récupération des données...",
+        "dataCreating":         ":black_circle: Creation du salon...",
+        "roomCreated":          ":large_blue_circle: Salon crée !",
+        "roomAlreadyExists":    ":Atention: Vous avez deja un salon quelque part!",
+        "roomRevoked":          ":large_blue_circle: Salon Supprimer!",
+        "roomRevokedInactive":  "Votre salon a été supprimer suite a votre innactivité, vous pouvez en crée un nouveau avec `$1`",
+        "roomName":             "Salon priver [$1]",
+        "roomErrorDisabled":    "Les salons priver sont désactiver sur se serveur.",
+        "roomErrorLimit":       "Désoler, vous ne pouvez pas crée de salon priver maintenant.",
+        "roomErrorNotAllowed":  "Vous n'êtes pas autoriser à crée des salons.",
+
+        "roomRenamed":          "Salon renommer à: `$1`",
+        "roomRenameDisabled":   "Vous ne pouvez pas renommer votre salon dans se serveur.",
+        "roomNoNameSpecified":  "Vous devez spécifier le nom!",
+
+        "revokeComplete":       ":cyclone: Salon Supprimer!",
+        "revokeError":          ":no_good: quelque chose ne marche pas quand vous crée votre salon.",
+        "revokeNotGuild":        "vous pouvez seulement supprimer votre salon depuis un serveur.",
+        "revokeNoRoom":         ":attention: Vous n'avez aucun salon!",
+
+        "roomUserAdded":        "$1 peux à présent joindre votre salon.",
+        "roomUserRemoved":      "$1 ne peux plus joindre votre salon.",
+        "roomUserBlocked":      "$1 À été bloquer de votre salon donc il ne pourras plus le joindre.",
+        "roomNoAdded":			"Aucun changement à été fait.",
+        "roomMadePublic":       "Tous le monde peux désromais joindre votre salon.",
+        "roomNotPublic":        "Seul les membres ajouté peux joindre votre salon.",
+
+        "userWhitelistAdd":     "$1 À désormais acces à votre salon.",
+        "userWhitelistRevoke":  "$1 Na plus acces à votre salon.",
+        "userWhitelistReset":   "Votre liste blanche à été reinitializé.",
+        "userBlacklistAdd":     "$1 Est désormais sur la liste noir.",
+        "userBlacklistRevoke":  "$1 N'est plus sur votre liste noir.",
+        "userBlacklistReset":   "Votre liste noir à été reinitializé.",
+
+        "errorRoomsDisabled":   "Les salons privé sont désactivé sur se serveur.",
+        "errorNotGuild":        "Les salons peuvent uniquement apparaitre sur un serveur."
+    },
+
+    "music": {
+
+        "MusicNoURL":           ":Attention: Vous devez mettre un liens valide !",
+        "MusicNovoiceCon":      ":Attention: Vous devez être dans un salon vocal!",
+        "MusicNoPermission":    "Vous n'avez pas les permissions requise.",
+
+        "MusicDifferentChannel":"Vous pouvez pas voter pour skip si vous n'êtes pas dans le même salon vocal que le bot.",
+        "MusicVoteProgress":    "Vous avez voter pour skip la vidéo présente `$1`",
+        "MusicVoteAlreadyVoted":"Vous avez déja voter pour skip la vidéo présente `$1`",
+        "MusicVoteCompleted":   "La musique présente a été skipper. `$1`",
+
+        "MusicAddedToQueue":    "Ajout à la liste de musique. `$1`",
+        "MusicNowPlaying":      "Musique qui joue présentement",
+        "MusicRequestedBy":     "Demander par",
+        "MusicVideoLength":     "Longueur",
+
+        "errorGeneric":         "Quelque chose ne marche pas.",
+        "errorConfigNotFound":  "Une erreur s'est produite lors de l'extraction de cette configuration de guildes.",
+        "errorMusicDisabled":   "Music Rooms are disabled on this guild.",
+        "errorNotGuild":        "La musique ne peut être jouée que par une guilde."
+
+    }
+
+}
