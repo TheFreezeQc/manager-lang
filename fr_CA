@@ -1,0 +1,84 @@
+(Not finished please wait before adding in bot)
+
+{
+
+    "lang_version":     2,
+    "lang_revision":    "dev0",
+    "lang_name":        "French",
+    "lang_short":       "fr_CA",
+
+    "shared": {
+
+        "errorGeneric":         "Quelque chose s'est mal passé.",
+        "errorNoPermission":    "Vous n'avez pas les premissions requise.",
+        "errorConfigNotFound":  "Une erreur s'est produite lors de l'extraction de la configuration de ce serveur.",
+
+		"configFlushed":		"Cache pour le server $1 rincé.",
+		"errorShutdownGrace":	"Désoler, Vous ne pouvez pas faire cette commande maintenant. réssayer dans une minute ou deux."
+
+    },
+
+    "channel": {
+
+        "dataFetching":         ":black_circle: Récupération de données...",
+        "dataCreating":         ":black_circle: Creation du salon...",
+        "roomCreated":          ":large_blue_circle: Salon crée !",
+        "roomAlreadyExists":    ":Atention: Vous avez deja un salon quelque part!",
+        "roomRevoked":          ":large_blue_circle: Salon Supprimer!",
+        "roomRevokedInactive":  "Votre salon a été supprimer suite a votre innactiviter, vous pouvez en crée un nouveau avec `$1`",
+        "roomName":             "Salon priver [$1]",
+        "roomErrorDisabled":    "Les salons priver sont désactiver sur se serveur.",
+        "roomErrorLimit":       "Désoler, vous ne pouvez pas crée de salon priver maintenant.",
+        "roomErrorNotAllowed":  "Vous n'êtes pas autoriser à crée des salons.",
+
+        "roomRenamed":          "Salon renommer à: `$1`",
+        "roomRenameDisabled":   "Vous ne pouvez pas renommer votre salon dans se serveur.",
+        "roomNoNameSpecified":  "Vous devez spécifier le nom!",
+
+        "revokeComplete":       ":cyclone: Salon Supprimer!",
+        "revokeError":          ":no_good: Something went wrong while revoking your room.",
+        "revokeNotGuild":        "You can only revoke your room from a server.",
+        "revokeNoRoom":         ":attention: Vous n'avez aucun salon!",
+
+        "roomUserAdded":        "Added $1 to your room.",
+        "roomUserRemoved":      "Removed $1 from your room.",
+        "roomUserBlocked":      "Blocked $1 from your room.",
+        "roomNoAdded":			"No changes were made.",
+        "roomMadePublic":       "Anyone can now join your room.",
+        "roomNotPublic":        "Only added members can join your room now.",
+
+        "userWhitelistAdd":     "$1 is now on your whitelist.",
+        "userWhitelistRevoke":  "$1 is no longer on your whitelist.",
+        "userWhitelistReset":   "Your whitelist has been reset.",
+        "userBlacklistAdd":     "$1 is now on your blacklist.",
+        "userBlacklistRevoke":  "$1 is no longer on your blacklist.",
+        "userBlacklistReset":   "Your blacklist has been reset.",
+
+        "errorRoomsDisabled":   "Private Rooms are disabled on this server.",
+        "errorNotGuild":        "Rooms can only be summoned from a server."
+    },
+
+    "music": {
+
+        "MusicNoURL":           ":warning: You need to provide a valid URL!",
+        "MusicNovoiceCon":      ":warning: You need to be in a Voice Channel!",
+        "MusicNoPermission":    "You do not have permission to do that.",
+
+        "MusicDifferentChannel":"You cannot vote to skip without being in the channel.",
+        "MusicVoteProgress":    "You voted to skip the current video `$1`",
+        "MusicVoteAlreadyVoted":"You voted to skip the current video `$1`",
+        "MusicVoteCompleted":   "The current song has been skipped. `$1`",
+
+        "MusicAddedToQueue":    "Added `$1` To the queue.",
+        "MusicNowPlaying":      "Now Playing",
+        "MusicRequestedBy":     "Requested By",
+        "MusicVideoLength":     "Length",
+
+        "errorGeneric":         "Something went wrong.",
+        "errorConfigNotFound":  "Something went wrong while fetching this guilds configuration.",
+        "errorMusicDisabled":   "Music Rooms are disabled on this guild.",
+        "errorNotGuild":        "Music can only be played from a guild."
+
+    }
+
+}
